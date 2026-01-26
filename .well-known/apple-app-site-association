@@ -4,15 +4,15 @@
       "details": [
       {
         "appID": "3ZS995HPD5.com.tms-app.PartyApp",
-        "paths": ["*"]
+        "paths": ["/deeplink/*"]
       },
       {
         "appID": "3ZS995HPD5.com.tms-app.PartyApp.stg",
-        "paths": ["*"]
+        "paths":  ["/deeplink/*"]
       },
       {
         "appID": "3ZS995HPD5.com.tms-app.PartyApp.dev",
-        "paths": ["*"]
+        "paths":  ["/deeplink/*"]
       }
     ]
   }
