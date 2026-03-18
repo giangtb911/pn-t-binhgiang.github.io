@@ -1,18 +1,22 @@
 {
   "applinks": {
-      "apps": [],
-      "details": [
+    "details": [
       {
-        "appID": "3ZS995HPD5.com.tms-app.PartyApp",
-        "paths": ["/deeplink/*", "/party_detail/*"]
-      },
-      {
-        "appID": "3ZS995HPD5.com.tms-app.PartyApp.stg",
-        "paths":  ["/deeplink/*", "/party_detail/*"]
-      },
-      {
-        "appID": "3ZS995HPD5.com.tms-app.PartyApp.dev",
-        "paths":  ["/deeplink/*", "/party_detail/*"]
+        "appIDs": [
+          "3ZS995HPD5.com.tms-app.PartyApp",
+          "3ZS995HPD5.com.tms-app.PartyApp.stg",
+          "3ZS995HPD5.com.tms-app.PartyApp.dev"
+        ],
+        "components": [
+          {
+            "/": "/deeplink/*",
+            "comment": "PayPay deeplink callback and other deeplinks"
+          },
+          {
+            "/": "/party_detail/*",
+            "comment": "Party detail pages"
+          }
+        ]
       }
     ]
   }
